@@ -5,11 +5,11 @@ import java.util.stream.Collectors;
 public class StreamAPI {
     public static void main(String[] args) {
         List<Car> cars = List.of(
-                new Car("1", "A4", "Audi", 2022, 10000, 40000, CarType.SEDAN),
-                new Car("2", "Camry", "Toyota", 2018, 60000, 25000, CarType.SEDAN),
-                new Car("3", "Model S", "Tesla", 2023, 3000, 75000, CarType.ELECTRIC),
-                new Car("4", "X5", "BMW", 2021, 45000, 50000, CarType.SUV),
-                new Car("5", "Q7", "Audi", 2020, 5000, 60000, CarType.SUV)
+                new Car("1", "Audi", "A4", 2022, 10000, 40000, CarType.SEDAN),
+                new Car("2", "Toyota", "Camry", 2018, 60000, 25000, CarType.SEDAN),
+                new Car("3", "Tesla", "Model S", 2023, 3000, 75000, CarType.ELECTRIC),
+                new Car("4", "BMW", "X5", 2021, 45000, 50000, CarType.SUV),
+                new Car("5", "Audi", "Q7", 2020, 5000, 60000, CarType.SUV)
         );
 
         // Фильтр по пробегу

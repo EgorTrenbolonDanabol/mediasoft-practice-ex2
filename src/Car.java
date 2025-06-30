@@ -59,9 +59,9 @@ public class Car implements Comparable<Car> {
     public static void main(String[] args) {
         Set<Car> carSet = new HashSet<>();
 
-        Car car1 = new Car("VIN001", "Camry", "Toyota", 2015, 10000, 20000, CarType.SEDAN);
-        Car car2 = new Car("VIN002", "X5", "BMW", 2019, 50000, 35000, CarType.SUV);
-        Car car3 = new Car("VIN001", "Corolla", "Toyota", 2021, 15000, 18000, CarType.SEDAN); // Дубликат VIN с car1
+        Car car1 = new Car("VIN001", "Toyota", "Camry", 2015, 10000, 20000, CarType.SEDAN);
+        Car car2 = new Car("VIN002", "BMW", "X5", 2019, 50000, 35000, CarType.SUV);
+        Car car3 = new Car("VIN001", "Toyota", "Corolla", 2021, 15000, 18000, CarType.SEDAN); // Дубликат VIN с car1
 
         carSet.add(car1);
         carSet.add(car2);
